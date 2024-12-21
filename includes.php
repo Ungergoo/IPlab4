@@ -1,7 +1,7 @@
 <?php
 $dsn = 'mysql:host=localhost;dbname=catalog;charset=utf8';
-$username = 'root'; // Замените на ваше имя пользователя
-$password = ''; // Замените на ваш пароль
+$username = 'root'; 
+$password = ''; 
 
 try {
     $pdo = new PDO($dsn, $username, $password);
